@@ -1,0 +1,9 @@
+---
+
+- name: Configure postgres user
+  become_user: postgres
+  become: yes
+  postgresql_user:
+    name: "{{db_user}}"
+    password: "{{db_password}}"
+    db: postgres

@@ -11,7 +11,7 @@ Usage
 1. Install virtualBox, vagrant, ansible on your machine.
 2. Clone this repo onto your machine.
 3. Navigate to the sample-ansible folder on your terminal.
-4. Type `Vagrant up` to start up the vagrant box.
+4. Type `vagrant up` to start up the vagrant box.
 5. Type `ansible-playbook postgres.yml --ask-vault-pass`, you will be prompted to enter the vault password which is **hifriends**.
 
 Verification
