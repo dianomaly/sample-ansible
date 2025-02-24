@@ -1,7 +1,7 @@
 Description
 =================
 
-This module will uses a Vagranffile to create a **ubuntu/bionic64** box. Your ssh public key that is in **~/.ssh/id_rsa.pub** will be copied into the authorized_key for the user **vagrant**, allowing you to ssh into the box and will be used by ansible to ssh and configure the box when the playbook is ran.
+This module will uses a Vagrantfile to create a **ubuntu/bionic64** box. Your ssh public key that is in **~/.ssh/id_rsa.pub** will be copied into the authorized_key for the user **vagrant**, allowing you to ssh into the box and will be used by ansible to ssh and configure the box when the playbook is ran.
 
 Once the box is vagrant box is up an running, use the ansible playbook to install postgres on the machine and create a user named **bigboy**. It's password, **hellofriends**, is stored in the vault file located in the **/roles/postgres/vars directory**.
 
